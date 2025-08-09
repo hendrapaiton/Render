@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
+# JANGAN PERNAH commit file .env yang berisi kredensial!
+.env
+
+# Package installers
+pip-wheel-metadata/
+develop-eggs/
+*.egg-info/
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+.tox/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
